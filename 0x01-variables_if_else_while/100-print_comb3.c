@@ -1,3 +1,4 @@
+#include <stdio.h>
 /**
  * main - Entry point of the program
  *program that prints all possible different combinations of two digits.
@@ -13,7 +14,7 @@ for (n2 = 0; n2 <= 9; n2++)
 putchar('0' + n1);
 putchar(',');
 putchar(' ');
-putchar('0' + n);
+putchar('0' + n2);
 }
 }
 putchar('\n');
