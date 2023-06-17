@@ -20,4 +20,4 @@ alpha_maj++;
 }
 putchar('\n');
 return (0);
-
+}
