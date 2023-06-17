@@ -15,7 +15,7 @@ putchar('0' + a);
 }
 else
 {
-putchar('A' + (a - 10));
+putchar('a' + (a - 10));
 }
 }
 putchar('\n');
