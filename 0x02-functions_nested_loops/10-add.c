@@ -4,7 +4,7 @@
  * @a: the first numbers to add
  * @b: the second number to add
  *
- * Return : the sum of the two numbers
+ * Return: the sum of the two numbers a & b.
  */
 int add(int a, int b)
 {
