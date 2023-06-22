@@ -14,7 +14,7 @@ if (n <= 15 && n >= 0)
 {
 for (i = 0; i <= n; i++)
 {
-_putchar(48);
+_putchar('0');
 for (m = 1; m <= i; m++)
 {
 _putchar(',');
@@ -27,9 +27,9 @@ _putchar(' ');
 else
 {
 if (p >= 10)
-_putchar((p / 10) + 48);
+_putchar((p / 10) + '0');
 }
-_putchar((p % 10) + 48);
+_putchar((p % 10) + '0');
 }
 _putchar('\n');
 }
