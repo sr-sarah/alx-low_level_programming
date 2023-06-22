@@ -26,6 +26,7 @@ _putchar(' ');
 }
 else
 {
+if (p >= 10)
 _putchar((p / 10) + 48);
 }
 _putchar((p % 10) + 48);
