@@ -17,7 +17,7 @@ for (j = 0; j <= 14; j++)
 {
 k = j % 10;
 if (j > 9)
-_putchar('1');
+{_putchar('1');}
 _putchar(k + '0');
 }
 _putchar ('\n');
