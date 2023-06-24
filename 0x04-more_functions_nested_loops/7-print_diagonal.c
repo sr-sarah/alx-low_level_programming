@@ -14,7 +14,11 @@ else
 {
 for (i = 1; i <= n; i++)
 {
-_putchar (32 * (i - 1) + 92);
+for (s = 1; s <= i; s++)
+{
+_putchar (32);
+}
+_putchar(92);
 _putchar ('\n');
 }
 _putchar ('\n');
