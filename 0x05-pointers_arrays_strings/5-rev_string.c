@@ -13,10 +13,7 @@ int i;
 char c;
 
 while (*s != '\0')
-{
 len++;
-s++;
-}
 for (i = 0; i < len / 2; i++)
 {
 c = s[i];
