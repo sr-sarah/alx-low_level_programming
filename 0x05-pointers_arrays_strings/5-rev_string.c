@@ -12,7 +12,9 @@ int len;
 int i;
 char c;
 
-while (*s != '\0')
+len = 0;
+
+while (s[len] != '\0')
 len++;
 for (i = 0; i < len / 2; i++)
 {
