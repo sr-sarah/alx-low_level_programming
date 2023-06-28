@@ -13,6 +13,7 @@ int sign = 1;
 int len = 0;
 int number = 0;
 int digit = 0;
+int resNum;
 
 while (s[i] != '\0')
 len++;
@@ -30,15 +31,16 @@ i++;
 
 while (s[i] >= '0' && s[i] <= '9')
 {
-length++;
+len++;
 i++;
 }
 
-for (i = 0; i < length; i++)
+for (i = 0; i < len; i++)
 {
 digit = s[i] - '0';
 number = number * 10 + digit;
 }
 resNum = (number) *(sign);
 return (resNum);
+return (0);
 }
