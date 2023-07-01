@@ -20,7 +20,7 @@ i++;
 for (j = 0; j < n && src[j] != '\0'; j++)
 {
 dest[i] = src[j];
-i++
+i++;
 }
 dest[i + j] = '\0';
 return (dest);
