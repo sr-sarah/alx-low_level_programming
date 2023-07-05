@@ -16,7 +16,7 @@ do
 sum1 = sum1 + a[i * size + i];
 i++;
 }
-while (i < size);
+while (i < size - 1);
 for (i = size - 1; i >= 0; i--)
 {
 sum2 += a[i * size + (size - i - 1)];
