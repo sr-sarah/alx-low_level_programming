@@ -9,21 +9,16 @@
  */
 void print_diagsums(int *a, int size)
 {
-int sum1 = 0;
-int sum2 = 0;
-int i = 0;
-do
+int s1 = 0;
+int s2 = 0;
+int i;
+for (i = 0; i < size; i++)
 {
-sum1 = sum1 + a[i * size + i];
-i++;
+s1 = s1 + a[i * size + i];
 }
-while (i < size);
-i = size - 1;
-do
+for (i = size - 1; i >= 0; i--)
 {
-sum2 += a[i * size + (size - i - 1)];
-i--;
+s2 = s2 + a[i * size + (size - i - 1)];
 }
-while (i >= 0);
-printf("%d, %d\n", sum1, sum2);
+printf("%d, %d\n", s1, s2);
 }
